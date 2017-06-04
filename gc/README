@@ -1,0 +1,9 @@
+# gc
+
+#see cykd.txt
+
+split -b 80m ~/gc ./gc
+cat gc* >gc
+diff ~/gc gc #no difference
+
+
